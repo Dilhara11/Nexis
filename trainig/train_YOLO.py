@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 def train():
     # Load .env variables
     load_dotenv()
-    DATA_YAML = os.getenv("YML_PATH")
+    DATA_YAML = os.getenv("DATA_PROCESSED_YAML")
 
     print(f"Data Path: {DATA_YAML}")
     print("Exists?", os.path.exists(DATA_YAML))

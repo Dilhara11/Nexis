@@ -9,7 +9,7 @@ def evaluate():
     DATA_YAML = os.getenv("YML_PATH")
 
     # load trained model
-    model = YOLO("runs/detect/train5/weights/best.pt")
+    model = YOLO("runs/detect/train6/weights/best.pt")
 
     # evaluate using test dataset
     metrics = model.val(

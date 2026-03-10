@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # load trained model
-model = YOLO("runs/detect/train5/weights/best.pt")
+model = YOLO("runs/detect/train6/weights/best.pt")
 
 # test image
 image_path = "test.jpg"

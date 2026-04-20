@@ -42,7 +42,7 @@ def annotate_detections(
         confidence = float(box.conf[0]) if box.conf is not None else 0.0
         class_id = int(box.cls[0]) if box.cls is not None else -1
         class_name = _get_class_name(class_names, class_id)
-        label = f"{class_name} {confidence:.2f}"
+        label = f"{class_name} {confidence * 100:.0f}%"
 
         cv2.rectangle(annotated, (x1, y1), (x2, y2), box_color, thickness)
 

@@ -54,7 +54,7 @@
 ### 1️⃣ Clone Repository 📋
 ```bash
 git clone https://github.com/Dilhara11/Nexis.git
-cd nexis
+cd Nexis
 ```
 ### 2️⃣ Create Virtual Environment 🌐
 ```bash
